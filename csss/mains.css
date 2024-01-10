@@ -308,6 +308,18 @@ max-height: 1500px;
 
 @media (max-width:  1080px) {
 
+  .text {
+  font-family: "SegoeUI-SemiBold";
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+  .subtitle {
+  font-size: 25px;
+  font-family: "SegoeUI-BoldItalic";
+  margin-bottom: 10px;
+}
+
   .header {
     width: 50px; 
   }
