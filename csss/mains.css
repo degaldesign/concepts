@@ -1,0 +1,374 @@
+@font-face {
+  font-family: "Sernes-Bold";
+  src: url("../Sernes-Bold.ttf");
+  src: url("../Sernes-Bold.ttf?lefix") format("truetype")
+}
+
+@font-face {
+  font-family: "Fungal-Grow900Thickness500";
+  src: url("../Fungal-Grow900Thickness500.ttf");
+  src: url("../Fungal-Grow900Thickness500.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../SegoeUI.ttf");
+  src: url("../SegoeUI.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI-SemiBold";
+  src: url("../SegoeUI-SemiBold.ttf");
+  src: url("../SegoeUI-SemiBold.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI-Bold";
+  src: url("../SegoeUI-Bold.ttf");
+  src: url("../SegoeUI-Bold.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI-Italic";
+  src: url("../SegoeUI-Italic.ttf");
+  src: url("../SegoeUI-Italic.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI-BoldItalic";
+  src: url("../SegoeUI-BoldItalic.ttf");
+  src: url("../SegoeUI-BoldItalic.ttf?lefix") format("truetype")
+}
+@font-face {
+ font-family: "Lineal-Bold";
+  src: url("../Lineal-Bold.ttf");
+  src: url("../Lineal-Bold.ttf?lefix") format("truetype");
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html, body{
+  overflow-x: hidden;
+  background-color: white;
+  font-family:  "SegoeUI-Light"; 
+  color:black;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  scroll-behavior: smooth;
+
+}
+
+.container {
+  max-width: 100%;
+  min-height: 100%;
+  padding: 5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+  margin-top: 100px;
+  max-height: 100%;
+  padding: 0;
+  border-radius: 30px;
+  background-color: #ECEDF3;
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
+  overflow: hidden;
+  text-decoration: none;
+  background-size: cover;
+}
+
+.img {
+  object-fit: cover;
+  min-width: 50%;
+  height: 100%;
+  margin-left: 100px;
+  position: relative;
+  display: flex;
+  background-image: url("dolce gabbana alta gioielleria 2023.png");
+}
+
+.img:hov {
+  object-fit: cover;
+  min-width: 100%;
+  height: 100%;
+  margin-left: 50px;
+  position: relative;
+  display: flex;
+  background-image: url("dolce gabbana alta gioielleria 2023.png");
+}
+
+.cardin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.title {
+  text-decoration: none;
+  font-family: "Sernes-Bold";
+  font-size: 52px;
+  margin-bottom: 10px;
+  color: black;
+  line-height: 25px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family: "SegoeUI-BoldItalic";
+  margin-bottom: 10px;
+}
+
+.text {
+  font-family: "SegoeUI-SemiBold";
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.pre {
+  border: 1px solid black;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  padding-left:2%;
+  padding-right: 2%;
+}
+
+.news {
+  position: relative;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.header {
+  position: fixed;
+  align-self: center;
+  display: flex;
+  padding: 2%;
+  justify-content: space-between;
+  z-index: 100;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 0%;
+  margin-top: 0px;
+  height: 20px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.ticker {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  position: relative;
+  font-family: "TokyoDreamsHybrid-Regular";
+  font-size: 40px;
+  color: white;
+  width: 3000px;
+  animation: kers 20s linear infinite;
+
+}
+
+.menu {
+  margin-top: 
+  font-family: "TokyoDreamsHybrid-Regular";
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  padding: 2%;
+  justify-content: space-between;
+  font-size: 20px;
+
+}
+
+.menuu {
+  margin-top: 126px;
+}
+
+.botton {
+  font-family: "SegoeUI-Italic";
+  margin-right: 2%;
+  margin-bottom: 5px;
+  color: #272ebf;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.botton:hover {
+  margin-right: 2%;
+  color: #272ebf;
+  text-decoration: line-through;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+
+
+.tic {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  position: relative;
+  font-family: "FT88-Ghotique";
+  color: #1425A1;
+  margin-top: 90px;
+
+}
+
+@keyframes kers {
+from {
+    transform: translateX(-1000px);
+  };
+to {
+    transform: translateX(900px);
+  }
+}
+
+.header li {
+  list-style-type:  none;
+  text-transform: uppercase;
+  text-transform: none;
+  padding: 1%;
+  align-self: center;
+}
+
+.big {
+  position: relative;
+    z-index: 1;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    width: 200px;
+
+}
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+ 
+.loader::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    animation-name: spin;
+}
+ 
+@keyframes spin {
+    0% {
+        scale: 1.0;
+    }
+    50%{
+        scale: 0.8;
+    }
+    100% {
+        scale: 2.0 ;
+    }
+}
+
+.bigs {
+animation: spin 1s cubic-bezier(.19,.51,.44,.77);
+max-height: 1500px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.3s ease-out 0.5s;
+    animation-delay: 4s;
+    pointer-events: none;
+}
+
+@media (max-width:  1080px) {
+
+  .container {
+  max-width: 100%;
+  min-height: 100%;
+  padding: 2%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0%;
+}
+
+.cardin {
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+
+.big {
+  width: 120px;
+}
+  .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+  margin-top: 50px;
+  max-height: 100%;
+  padding: 0;
+  border-radius: 30px;
+  background-color: #ECEDF3;
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
+  overflow: hidden;
+  text-decoration: none;
+  background-size: cover;
+}
+.img {
+  object-fit: cover;
+  width: 100%;
+  min-height: 50%;
+  margin-left: 0;
+  position: relative;
+  display: flex;
+}
+}
+
+.card img {
+  height: auto;
+  width: 100%;
+}
+
+.card a {
+  font-family: "SegoeUI-BoldItalic";
+color: #272ebf;
+text-decoration: none;
+padding: 5px;
+border-radius: 100%;
+border: 2px black;
+}
+
+.card a:hover {
+color: #272ebf;
+text-decoration: line-through;
+}
