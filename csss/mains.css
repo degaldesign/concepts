@@ -321,7 +321,7 @@ max-height: 1500px;
 }
 
   .header {
-    height: 50px; 
+    height: 60px; 
   }
   .container {
   max-width: 100%;
@@ -338,10 +338,6 @@ max-height: 1500px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 40px;
-}
-
-.big {
-  width: 200px;
 }
   .card {
   position: relative;
