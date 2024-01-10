@@ -163,7 +163,7 @@ html, body{
   background-color: white;
   border-radius: 0%;
   margin-top: 0px;
-  height: 20px;
+  height: 30px;
   width: 100%;
   top: 0;
   left: 0;
@@ -258,7 +258,7 @@ to {
     right: 0;
     bottom: 0;
     overflow: auto;
-    width: 200px;
+    width: 250px;
 
 }
 
@@ -308,6 +308,9 @@ max-height: 1500px;
 
 @media (max-width:  1080px) {
 
+  .header {
+    width: 50px; 
+  }
   .container {
   max-width: 100%;
   min-height: 100%;
@@ -326,7 +329,7 @@ max-height: 1500px;
 }
 
 .big {
-  width: 120px;
+  width: 200px;
 }
   .card {
   position: relative;
