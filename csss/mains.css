@@ -305,18 +305,21 @@ max-height: 1500px;
 
   .text {
   font-family: "SegoeUI-SemiBold";
-  font-size: 21px;
+  font-size: 27px;
   margin-bottom: 10px;
 }
+  .big {
+    width: 350px;
+  }
 
   .subtitle {
-  font-size: 25px;
+  font-size: 32px;
   font-family: "SegoeUI-BoldItalic";
   margin-bottom: 10px;
 }
 
   .header {
-    height: 60px; 
+    height: 100px; 
   }
   .container {
   max-width: 100%;
